@@ -88,7 +88,7 @@ app.delete('/books/:id', async (req, res) => {
 });
 /**
  * Inicia el servidor en el puerto especificado
- * @param {int} port - Numero de puerto
+ * @param {number} port - Numero de puerto
  */
 app.listen(port, () => {
     console.log(`Server listening on port ${port}`)
